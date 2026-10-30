@@ -1,0 +1,679 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f1f0ed" />
+    <title>Júlia Martins | Arquitetura e Interiores</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  <body>
+    <!-- NAVEGAÇÃO -->
+    <header class="header">
+      <nav class="navbar" aria-label="Navegação principal">
+        <a href="#inicio" class="logo">JÚLIA MARTINS</a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Abrir menu"
+          aria-expanded="false"
+          aria-controls="nav-links"
+        >
+          <span></span>
+          <span></span>
+        </button>
+
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#inicio" class="nav-link active">Início</a></li>
+          <li><a href="#interiores" class="nav-link">Interiores</a></li>
+          <li><a href="#arquitetura" class="nav-link">Arquitetura</a></li>
+          <li><a href="#sobre" class="nav-link">Sobre</a></li>
+          <li><a href="#contato" class="nav-link">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- SESSÃO HERO -->
+    <section class="hero" id="inicio">
+      <img
+        src="assets/img-hero.jpg"
+        alt="Interior de um apartamento contemporâneo"
+        class="hero-image"
+      />
+
+      <div class="hero-content">
+        <h1>Arquitetura que acolhe.<br />Espaços que inspiram.</h1>
+        <p>
+          Projetos de arquitetura e interiores pensados para a sua forma de
+          viver.
+        </p>
+      </div>
+    </section>
+
+    <!-- DESIGN -->
+    <section class="interiores" id="interiores">
+      <div class="interiores-header">
+        <h2>Design de interiores</h2>
+        <p>ambientes pensados em cada detalhe.</p>
+      </div>
+
+      <div class="interiores-grid">
+        <article class="projeto-interiores">
+          <div class="comparacao">
+            <div class="comparacao-item">
+              <img
+                src="assets/design-1.jpg"
+                alt="Sala de estar antes da transformação"
+              />
+              <span>Antes</span>
+            </div>
+            <div class="comparacao-item">
+              <img
+                src="assets/design-1.2.jpg"
+                alt="Sala de estar depois da transformação"
+              />
+              <span>Depois</span>
+            </div>
+          </div>
+          <h3>Sala de estar</h3>
+        </article>
+
+        <article class="projeto-interiores">
+          <div class="comparacao">
+            <div class="comparacao-item">
+              <img
+                src="assets/jantar-antes.jpg"
+                alt="Sala de jantar antes da transformação"
+              />
+              <span>Antes</span>
+            </div>
+            <div class="comparacao-item">
+              <img
+                src="assets/jantar-depois.jpg"
+                alt="Sala de jantar depois da transformação"
+              />
+              <span>Depois</span>
+            </div>
+          </div>
+          <h3>Sala de jantar</h3>
+        </article>
+
+        <article class="projeto-interiores">
+          <div class="comparacao">
+            <div class="comparacao-item">
+              <img
+                src="assets/paisagismo-antes.jpg"
+                alt="Paisagismo antes da transformação"
+              />
+              <span>Antes</span>
+            </div>
+            <div class="comparacao-item">
+              <img
+                src="assets/paisagismo-depois.jpg"
+                alt="Paisagismo depois da transformação"
+              />
+              <span>Depois</span>
+            </div>
+          </div>
+          <h3>Paisagismo</h3>
+        </article>
+
+        <article class="projeto-interiores">
+          <div class="comparacao">
+            <div class="comparacao-item">
+              <img
+                src="assets/lazer-antes.jpg"
+                alt="Área de lazer antes da transformação"
+              />
+              <span>Antes</span>
+            </div>
+            <div class="comparacao-item">
+              <img
+                src="assets/lazer-depois.jpg"
+                alt="Área de lazer depois da transformação"
+              />
+              <span>Depois</span>
+            </div>
+          </div>
+          <h3>Área de lazer</h3>
+        </article>
+      </div>
+
+      <div class="interiores-cta">
+        <a href="#contato">Vamos dar início ao seu projeto?</a>
+      </div>
+    </section>
+
+    <!-- ARQUITETURA -->
+    <section class="arquitetura" id="arquitetura">
+      <div class="arquitetura-header">
+        <h2>Arquitetura</h2>
+        <p>
+          Projetos arquitetônicos que valorizam os espaços e sua relação com o
+          entorno.
+        </p>
+      </div>
+
+      <div class="arquitetura-mosaico">
+        <article class="projeto-arquitetura projeto-a">
+          <div class="arquitetura-carrossel" data-carousel>
+            <div class="arquitetura-slides">
+              <img
+                src="assets/projeto-1.1.webp"
+                alt="Fachada de casa contemporânea"
+                class="active"
+              />
+              <img
+                src="assets/projeto-1.2.jpg"
+                alt="Vista lateral da casa contemporânea"
+              />
+              <img src="assets/projeto-1.3.jpg" alt="Detalhes da fachada" />
+              <img
+                src="assets/projeto-1.4.jpg"
+                alt="Vista externa da residência"
+              />
+            </div>
+            <div class="carrossel-dots">
+              <button class="active" aria-label="Ver imagem 1"></button>
+              <button aria-label="Ver imagem 2"></button>
+              <button aria-label="Ver imagem 3"></button>
+              <button aria-label="Ver imagem 4"></button>
+            </div>
+          </div>
+          <div class="projeto-info">
+            <h3>Casa contemporânea</h3>
+            <span class="projeto-categoria">Residencial</span>
+            <p>Nova Serrana — MG</p>
+          </div>
+        </article>
+
+        <article class="projeto-arquitetura projeto-b">
+          <div class="arquitetura-carrossel" data-carousel>
+            <div class="arquitetura-slides">
+              <img
+                src="assets/campo-1.jpg"
+                alt="Fachada de casa de campo"
+                class="active"
+              />
+              <img
+                src="assets/campo-2.jpg"
+                alt="Vista externa da casa de campo"
+              />
+              <img
+                src="assets/campo-3.jpg"
+                alt="Detalhes da arquitetura"
+              />
+              <img
+                src="assets/campo-4.jpg"
+                alt="Área externa da residência"
+              />
+            </div>
+            <div class="carrossel-dots">
+              <button class="active" aria-label="Ver imagem 1"></button>
+              <button aria-label="Ver imagem 2"></button>
+              <button aria-label="Ver imagem 3"></button>
+              <button aria-label="Ver imagem 4"></button>
+            </div>
+          </div>
+          <div class="projeto-info">
+            <h3>Casa de campo</h3>
+            <span class="projeto-categoria">Residencial</span>
+            <p>Divinópolis — MG</p>
+          </div>
+        </article>
+
+        <article class="projeto-arquitetura projeto-c">
+          <div class="arquitetura-carrossel" data-carousel>
+            <div class="arquitetura-slides">
+              <img
+                src="assets/residencia-1.jpg"
+                alt="Fachada de residência urbana"
+                class="active"
+              />
+              <img
+                src="assets/residencia-2.jpg"
+                alt="Vista lateral da residência"
+              />
+              <img src="assets/residencia-3.jpg" alt="Detalhes da fachada" />
+              <img
+                src="assets/residencia-4.jpg"
+                alt="Vista externa da casa"
+              />
+            </div>
+            <div class="carrossel-dots">
+              <button class="active" aria-label="Ver imagem 1"></button>
+              <button aria-label="Ver imagem 2"></button>
+              <button aria-label="Ver imagem 3"></button>
+              <button aria-label="Ver imagem 4"></button>
+            </div>
+          </div>
+          <div class="projeto-info">
+            <h3>Residência urbana</h3>
+            <span class="projeto-categoria">Residencial</span>
+            <p>Nova Serrana — MG</p>
+          </div>
+        </article>
+
+        <article class="projeto-arquitetura projeto-d">
+          <div class="arquitetura-carrossel" data-carousel>
+            <div class="arquitetura-slides">
+              <img
+                src="assets/ap-1.jpg"
+                alt="Projeto arquitetônico de edifício"
+                class="active"
+              />
+              <img src="assets/ap-2.jpg" alt="Fachada do edifício" />
+              <img
+                src="assets/ap-3.jpg"
+                alt="Detalhes arquitetônicos"
+              />
+              <img
+                src="assets/ap-4.jpg"
+                alt="Vista externa do edifício"
+              />
+            </div>
+            <div class="carrossel-dots">
+              <button class="active" aria-label="Ver imagem 1"></button>
+              <button aria-label="Ver imagem 2"></button>
+              <button aria-label="Ver imagem 3"></button>
+              <button aria-label="Ver imagem 4"></button>
+            </div>
+          </div>
+          <div class="projeto-info">
+            <h3>Edifício residencial</h3>
+            <span class="projeto-categoria">Multifamiliar</span>
+            <p>Divinópolis — MG</p>
+          </div>
+        </article>
+
+        <article class="projeto-arquitetura projeto-e">
+          <div class="arquitetura-carrossel" data-carousel>
+            <div class="arquitetura-slides">
+              <img
+                src="assets/mini-1.jpg"
+                alt="Projeto de residência minimalista"
+                class="active"
+              />
+              <img
+                src="assets/mini-2.jpg"
+                alt="Fachada da residência minimalista"
+              />
+              <img
+                src="assets/mini-3.jpg"
+                alt="Detalhes da residência"
+              />
+              <img
+                src="assets/mini-4.jpg"
+                alt="Vista externa do projeto"
+              />
+            </div>
+            <div class="carrossel-dots">
+              <button class="active" aria-label="Ver imagem 1"></button>
+              <button aria-label="Ver imagem 2"></button>
+              <button aria-label="Ver imagem 3"></button>
+              <button aria-label="Ver imagem 4"></button>
+            </div>
+          </div>
+          <div class="projeto-info">
+            <h3>Casa minimalista</h3>
+            <span class="projeto-categoria">Residencial</span>
+            <p>Nova Serrana — MG</p>
+          </div>
+        </article>
+
+        <article class="projeto-arquitetura projeto-f">
+          <div class="arquitetura-carrossel" data-carousel>
+            <div class="arquitetura-slides">
+              <img
+                src="assets/escritorio-1.jpg"
+                alt="Projeto arquitetônico comercial"
+                class="active"
+              />
+              <img
+                src="assets/escritorio-2.jpg"
+                alt="Fachada do espaço comercial"
+              />
+              <img
+                src="assets/escritorio-3.jpg"
+                alt="Detalhes da fachada comercial"
+              />
+              <img
+                src="assets/escritorio-4.jpg"
+                alt="Vista externa do empreendimento"
+              />
+            </div>
+            <div class="carrossel-dots">
+              <button class="active" aria-label="Ver imagem 1"></button>
+              <button aria-label="Ver imagem 2"></button>
+              <button aria-label="Ver imagem 3"></button>
+              <button aria-label="Ver imagem 4"></button>
+            </div>
+          </div>
+          <div class="projeto-info">
+            <h3>Espaço comercial</h3>
+            <span class="projeto-categoria">Comercial</span>
+            <p>Divinópolis — MG</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="arquitetura-cta">
+        <a href="#contato">Vamos dar início ao seu projeto?</a>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="sobre" id="sobre">
+      <div class="sobre-container">
+        <div class="sobre-imagem">
+          <img
+            src="assets/sobre-img.jpg"
+            alt="Arquiteta e urbanista Júlia Martins"
+          />
+        </div>
+
+        <div class="sobre-conteudo">
+          <span class="sobre-label">ARQUITETA E URBANISTA</span>
+
+          <h2>Júlia Martins</h2>
+
+          <p class="sobre-introducao">
+            Arquitetura é sobre criar espaços que fazem sentido para quem vive
+            neles.
+          </p>
+
+          <div class="sobre-descricao">
+            <p>
+              Formada em Arquitetura e Urbanismo pela Universidade Federal de
+              Minas Gerais (UFMG), com pós-graduação em Arquitetura de
+              Interiores e Design de Espaços, Júlia reúne conhecimento técnico e
+              sensibilidade estética para desenvolver projetos únicos.
+            </p>
+
+            <p>
+              Com 5 anos de experiência, atua em projetos residenciais, design
+              de interiores e reformas, acompanhando cada etapa para transformar
+              necessidades e ideias em espaços funcionais, acolhedores e bem
+              planejados.
+            </p>
+
+            <p>
+              Com atendimento em todo o Brasil, desenvolve projetos que
+              respeitam a identidade de cada cliente e valorizam a relação entre
+              arquitetura, pessoas e ambiente.
+            </p>
+          </div>
+
+          <a href="#contato" class="sobre-botao">Fale comigo agora</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORMULÁRIO -->
+    <section class="contato" id="contato">
+      <div class="contato-container">
+        <div class="contato-formulario">
+          <span class="contato-label">VAMOS CONVERSAR</span>
+          <h2>Conte um pouco sobre seu projeto.</h2>
+          <p class="contato-descricao">
+            Preencha o formulário e vamos conversar sobre como transformar suas
+            ideias em espaços únicos.
+          </p>
+
+          <form class="formulario" action="#" method="POST">
+            <div class="campo">
+              <label for="nome">Nome completo</label>
+              <input
+                type="text"
+                id="nome"
+                name="nome"
+                placeholder="Seu nome"
+                required
+              />
+            </div>
+
+            <div class="campo">
+              <label for="telefone">Telefone</label>
+              <input
+                type="tel"
+                id="telefone"
+                name="telefone"
+                placeholder="(00) 00000-0000"
+                required
+              />
+            </div>
+
+            <div class="campo">
+              <label for="email">E-mail</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="seuemail@email.com"
+                required
+              />
+            </div>
+
+            <div class="campo">
+              <label for="projeto">Conte sobre seu projeto</label>
+              <textarea
+                id="projeto"
+                name="projeto"
+                rows="5"
+                placeholder="Descreva sua ideia, necessidades ou o que gostaria de transformar..."
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="contato-submit">
+              Enviar mensagem
+              <span>↗</span>
+            </button>
+          </form>
+        </div>
+
+        <div class="contato-mapa">
+          <div class="mapa-visualizacao">
+            <iframe
+              src="https://maps.google.com/maps?q=Centro%2C%20Nova%20Serrana%2C%20MG%2C%20Brasil&output=embed"
+              title="Mapa do Centro de Nova Serrana, Minas Gerais"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            >
+            </iframe>
+          </div>
+
+          <div class="mapa-informacao">
+            <div>
+              <span class="contato-label">ATENDIMENTO PRESENCIAL</span>
+              <h3>Visite nosso escritório presencialmente.</h3>
+              <p>Centro · Nova Serrana — MG</p>
+            </div>
+
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=Centro%2C+Nova+Serrana%2C+MG"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Ver localização no Google Maps"
+            >
+              Ver localização ↗
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq" id="faq">
+      <div class="faq-container">
+        <div class="faq-header">
+          <span class="faq-label">DÚVIDAS FREQUENTES</span>
+          <h2>Vamos esclarecer suas dúvidas?</h2>
+          <p>
+            Algumas respostas para ajudar você a dar o primeiro passo no seu
+            projeto.
+          </p>
+        </div>
+
+        <div class="faq-lista">
+          <div class="faq-item">
+            <button class="faq-pergunta" aria-expanded="false">
+              <span
+                >Como funciona o processo de desenvolvimento de um
+                projeto?</span
+              >
+              <span class="faq-icone"></span>
+            </button>
+            <div class="faq-resposta">
+              <p>
+                O processo começa com uma conversa para entender suas
+                necessidades, preferências e expectativas. Em seguida,
+                desenvolvemos a proposta, apresentamos os estudos e avançamos
+                para as etapas de detalhamento e execução, conforme o escopo
+                contratado.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-pergunta" aria-expanded="false">
+              <span>Você atende projetos fora de Nova Serrana?</span>
+              <span class="faq-icone"></span>
+            </button>
+            <div class="faq-resposta">
+              <p>
+                Sim! Atendo clientes de diferentes regiões do Brasil. As etapas
+                de briefing, reuniões e apresentações podem acontecer de forma
+                online, permitindo desenvolver projetos à distância.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-pergunta" aria-expanded="false">
+              <span>Quais tipos de projetos você desenvolve?</span>
+              <span class="faq-icone"></span>
+            </button>
+            <div class="faq-resposta">
+              <p>
+                Desenvolvo projetos de arquitetura residencial, design de
+                interiores e reformas, sempre considerando as necessidades, a
+                rotina e a identidade de cada cliente.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-pergunta" aria-expanded="false">
+              <span>Quanto tempo leva para desenvolver um projeto?</span>
+              <span class="faq-icone"></span>
+            </button>
+            <div class="faq-resposta">
+              <p>
+                O prazo varia de acordo com o tamanho, a complexidade e as
+                etapas envolvidas. Após entender sua demanda, apresento uma
+                estimativa de cronograma para o desenvolvimento.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-pergunta" aria-expanded="false">
+              <span>Como posso solicitar um orçamento?</span>
+              <span class="faq-icone"></span>
+            </button>
+            <div class="faq-resposta">
+              <p>
+                Você pode preencher o formulário de contato com algumas
+                informações sobre sua ideia. Assim, consigo entender melhor o
+                que procura e entrar em contato para conversarmos sobre as
+                possibilidades.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-pergunta" aria-expanded="false">
+              <span>É possível contratar apenas o projeto de interiores?</span>
+              <span class="faq-icone"></span>
+            </button>
+            <div class="faq-resposta">
+              <p>
+                Sim! Os projetos de interiores podem ser contratados de forma
+                independente, assim como os projetos arquitetônicos. A proposta
+                é desenvolvida conforme as necessidades de cada cliente.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-principal">
+          <div class="footer-identidade">
+            <a href="#inicio" class="footer-logo">JÚLIA MARTINS</a>
+            <span>ARQUITETURA & INTERIORES</span>
+            <p>
+              Espaços que traduzem histórias, acolhem pessoas e transformam
+              formas de viver.
+            </p>
+          </div>
+
+          <div class="footer-coluna">
+            <h3>NAVEGAÇÃO</h3>
+            <a href="#inicio">Início</a>
+            <a href="#interiores">Interiores</a>
+            <a href="#arquitetura">Arquitetura</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
+          </div>
+
+          <div class="footer-coluna">
+            <h3>CONTATO</h3>
+            <a href="#contato">Solicitar orçamento</a>
+            <a href="mailto:contato@juliamartins.com.br">E-mail</a>
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=Centro%2C+Nova+Serrana%2C+MG"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Nova Serrana — MG</a
+            >
+          </div>
+
+          <div class="footer-coluna footer-social">
+            <h3>ACOMPANHE</h3>
+            <a href="#" target="_blank" rel="noopener noreferrer"
+              >Instagram ↗</a
+            >
+            <a href="#" target="_blank" rel="noopener noreferrer"
+              >Pinterest ↗</a
+            >
+          </div>
+        </div>
+
+        <div class="footer-frase">
+          <p>Arquitetura pensada para a vida acontecer.</p>
+        </div>
+
+        <div class="footer-bottom">
+          <p>© 2026 Júlia Martins. Todos os direitos reservados.</p>
+          <a href="#inicio">Voltar ao topo ↑</a>
+          <span>Desenvolvido com cuidado.</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
